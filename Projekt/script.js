@@ -1,5 +1,5 @@
 // Our variables
-let mercuryURL = "https://newsapi.org/v2/everything?sortBy=relevancy&q=mercury AND space NOT (venus OR saturn)&language=en&pageSize=3&apiKey=408117f4a74a49d4abca4ce93c06f24e"
+let mercuryURL = "https://newsapi.org/v2/everything?sortBy=relevancy&q=mercury AND planet NOT (venus OR saturn)&language=en&excludeDomains=gizmodo.com&pageSize=3&apiKey=408117f4a74a49d4abca4ce93c06f24e"
 let venusURL = "https://newsapi.org/v2/everything?sortBy=relevancy&q=planet AND venus NOT saturn&language=en&excludeDomains=techcrunch.com&pageSize=3&apiKey=408117f4a74a49d4abca4ce93c06f24e"
 let earthURL = "https://newsapi.org/v2/everything?sortBy=relevancy&q=earth AND space NOT (venus OR mercury)&language=en&pageSize=3&apiKey=408117f4a74a49d4abca4ce93c06f24e"
 let marsURL = "https://newsapi.org/v2/everything?sortBy=relevancy&q=mars AND planet&language=en&pageSize=3&apiKey=408117f4a74a49d4abca4ce93c06f24e"
